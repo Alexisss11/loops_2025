@@ -13,15 +13,35 @@ for fruit in fruits:
 
 # Given a list of school subjects:
 subjects = ["Math", "Science", "History", "Art"]
+print(len(subjects))
 for subject in subjects:
     print(subject)
+
+for subject in subjects:
+    if subject == "History":
+        break
+    print(subject)
+
+
 # Challenge:
 # Use a for loop and range to print each subject along with its index:
 # Example output: "Subject 0: Math"
-
+# for index in range(len(subject)):
+#     print("Subject" + str(index) + ":") + subjects[index])
 
 # Given:
 numbers = [5, 10, 15, 20]
 
 # Challenge:
 # Use a for loop to add all the numbers and print the total.
+
+total = 0
+for number in numbers:
+    total += number
+print(total)
+
+new_numbers = list(range(1, 600001))
+total = 0
+for number in new_numbers:
+    total += number
+print(total)

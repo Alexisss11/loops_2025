@@ -49,7 +49,8 @@ print(total)
 
 new_list = list(range(5,26))
 total = 0 
+
 for number in new_list:
     total += number
-    
+
     print(total)

@@ -88,4 +88,3 @@ for i in list2:
 
 
 
-# If you want, I can also turn this into a **Google Doc**, **worksheet**, **PDF**, or **Canvas/Schoology assignment format**.
